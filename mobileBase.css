@@ -1,0 +1,236 @@
+body {
+  max-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+picture {
+	padding-top: 0;
+	margin: 0;
+}
+
+div.wideSmall,
+.wideSmall iframe {
+	display: none;
+} 
+
+div.wide,
+.wide iframe {
+	display: none;
+}
+
+.relative {
+	padding-top: 0;
+  position: relative;
+}
+
+.Do-you-dream-of-bein {
+  width: 300px;
+  height: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.whats-your-aspiration-img,
+.fuel-your-passion-img {
+  width: 960px;
+  object-fit: contain;
+}
+
+
+.Fuel-Your-Passion {
+  width: 143px;
+  height: 27px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.Creativity-requires {
+  width: 300px;
+  height: 128px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    width: 145px;
+    display: inline-block;
+    left: 10px;
+    margin: 5px;
+    padding-bottom: 80%;
+  }
+
+  iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+	}
+
+.Rectangle-3 {
+  width: 300px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #0a92ca;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Show-More {
+  width: 100%;
+  height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.A-space-where-you-ca {
+  width: 300px;
+  height: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Watch-stories-of-how {
+  width: 300px;
+  height: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Rectangle-4 {
+  width: 320px;
+  height: 320px;
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+
+.picRow {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.support,
+.inspiration,
+.tips {
+  width: 93px;
+  height: 93px;
+  object-fit: contain;
+  float: left;
+  margin-right: 10px;
+}
+
+.subTitle {
+  width: 197px;
+  height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.picRow p {
+  width: 197px;
+  height: 54px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.At-BH-youll-find-s {
+  width: 300px;
+  height: 144px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+  margin: 10px 10px 0 10px;
+}
+
+.Welcome-to-your-pet {
+  width: 300px;
+  height: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+
+.Do-you-dream-of-bein,
+.Creativity-requires,
+.Rectangle-3,
+.A-space-where-you-ca,
+.Watch-stories-of-how {
+  margin-left: 10px;
+  margin-right: 10px;
+}

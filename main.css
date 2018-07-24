@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+
+.show-more-btn:hover,
+.watch-now-btn:hover {
+	cursor: pointer;
+}
+
+.show-more-btn:active {
+	background-color: #46c3f6;
+}
+.watch-now-btn:active {
+	background-color: lightgrey;
+}
