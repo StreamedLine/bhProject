@@ -2,6 +2,7 @@
   body {
   	display: block;
     max-width: 2000;
+    min-width: 2000;
     margin: 0 auto;
   }
 	
