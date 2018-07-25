@@ -1,6 +1,6 @@
 @media (min-width: 960px) {
   body {
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
   }
 
@@ -38,6 +38,9 @@
     margin: 0 auto;
     background-color: #0a92ca;
     text-align: center;
+    position: relative;
+    margin-top: 60px;
+    bottom: 40px;
   }
 
   .Rectangle-3 {

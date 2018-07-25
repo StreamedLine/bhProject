@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  width: 320px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ picture {
 	margin: 0;
 }
 
-div.wideSmall,
+  div.wideSmall,
 .wideSmall iframe {
 	display: none;
 } 
@@ -67,24 +67,35 @@ div.wide,
   color: #000000;
 }
 
-.video {
-    position: relative;
-    overflow: hidden;
-    width: 145px;
-    display: inline-block;
-    left: 10px;
-    margin: 5px;
-    padding-bottom: 80%;
-  }
+.videos {
+  position: relative;
+  transition: height 1s ease-in;
+}
 
-  iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid lightgrey;
-	}
+.video {
+  position: relative;
+  overflow: hidden;
+  width: 145px;
+  display: inline-block;
+  left: 5px;
+  margin: 5px;
+  padding-bottom: 80%;
+}
+
+iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgrey;
+}
+
+.mobileMore {
+  position: absolute;
+  bottom: 20px;
+  visibility: hidden;
+}
 
 .Rectangle-3 {
   width: 300px;
@@ -109,6 +120,11 @@ div.wide,
   color: #ffffff;
   padding: 10px;
   padding-left: 0;
+}
+
+.show-more-btn {
+  position: relative;
+  bottom: 20px;
 }
 
 .A-space-where-you-ca {
