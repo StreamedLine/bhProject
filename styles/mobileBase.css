@@ -40,7 +40,8 @@ div.wide,
 
 .whats-your-aspiration-img,
 .fuel-your-passion-img {
-  width: 960px;
+  width: 320px;
+  height: 150px;
   object-fit: contain;
 }
 
