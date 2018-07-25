@@ -4,6 +4,12 @@
     margin: 0 auto;
   }
 
+  .mobileMore {
+    position: relative;
+    bottom: initial;
+    visibility: visible; 
+  }
+
   div.wideSmall {
     display: inline-block;
   }
@@ -76,7 +82,6 @@
   .video {
     position: relative;
     overflow: hidden;
-    
     width: 300px;
     display: inline-block;
     left: 10px;
