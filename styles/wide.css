@@ -1,8 +1,7 @@
 @media (min-width: 2000px) {
   body {
   	display: block;
-    min-width: 2000px;
-    max-width: 2000px;
+    max-width: 2000;
     margin: 0 auto;
   }
 	
