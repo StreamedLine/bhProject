@@ -69,7 +69,7 @@ div.wide,
 
 .videos {
   position: relative;
-  padding: 10px;
+  padding: 10px 5px;
   transition: height 1s ease-in;
 }
 
@@ -78,7 +78,8 @@ div.wide,
   overflow: hidden;
   width: 145px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding-bottom: 80%;
 }
 
