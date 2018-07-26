@@ -37,6 +37,7 @@ div.wide,
   letter-spacing: normal;
   text-align: center;
   color: #000000;
+  margin: 10px;
 }
 
 .whats-your-aspiration-img,
@@ -67,6 +68,7 @@ div.wide,
   line-height: normal;
   letter-spacing: normal;
   color: #000000;
+  margin: 10px;
 }
 
 .videos {
@@ -105,7 +107,7 @@ iframe {
   border-radius: 4px;
   background-color: #0a92ca;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .Show-More {
@@ -113,7 +115,7 @@ iframe {
   height: 24px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -122,11 +124,6 @@ iframe {
   color: #ffffff;
   padding: 10px;
   padding-left: 0;
-}
-
-.show-more-btn {
-  position: relative;
-  bottom: 20px;
 }
 
 .A-space-where-you-ca {
@@ -141,7 +138,7 @@ iframe {
   letter-spacing: normal;
   text-align: center;
   color: #000000;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .Watch-stories-of-how {

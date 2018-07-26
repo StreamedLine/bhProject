@@ -5,6 +5,10 @@
     margin: 0 auto;
   }
 
+  .mobile {
+    display: none;
+  }
+
   .mobileMore {
     position: relative;
     bottom: initial;
@@ -36,18 +40,28 @@
     font-size: 22px;
   }
   
+  .Creativity-requires > p {
+    margin-top: 10px;
+  }
+
   .watch-now-btn {
+    display: relative;
     border: solid 1px #333333;
     background: initial;
+    margin: 0;
     margin-top: 20px;
+    left: 0;
   }
+
+  .videos {
+    margin-top: 10px;
+  }
+
   .show-more-btn {
-    margin: 0 auto;
+    margin: 20px auto 40px;
     background-color: #0a92ca;
     text-align: center;
     position: relative;
-    margin-top: 60px;
-    bottom: 40px;
   }
 
   .Rectangle-3 {
@@ -76,9 +90,6 @@
     height: 650px;
   }
 	
-	.whats-your-aspiration-img {
-		margin-top: 40px;
-	}
 
   .video {
     position: relative;
@@ -99,22 +110,29 @@
     border: 1px solid lightgrey;
 	}
 
-   .A-space-where-you-ca {
+  .aspiration-div {
+    margin-top: 40px;
+  }
+
+  .A-space-where-you-ca {
    	position: absolute;
-    top: 69px;
+    top: 49px;
     width: 874px;
     height: 124px;
     text-align: left;
     font-size: 46px;
     text-align: left;
+    margin-top: 0;
    } 
   
   .Watch-stories-of-how {
     position: absolute;
-    top: 214px;
+    top: 194px;
     width: 503px;
     height: 60px;
     font-size: 22px;
+    text-align: left;
+    margin-top: 0;
   }
   
   .Fuel-Your-Passion {
@@ -126,14 +144,27 @@
   .Rectangle-4 {
     width: 960px;
     height: 464px;  
+    padding: 40px 48px 0;
+    text-align: center;
+    box-sizing: border-box;
   }
   
   .picRow {
+    display: inline-block;
     width: 276px;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 10px;
-    margin-top: 40px;
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .pull-center {
+    float: center
+  }
+
+  .pull-right {
+    float: right;
   }
   
   .support, 
