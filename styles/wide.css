@@ -1,8 +1,8 @@
 @media (min-width: 2000px) {
   body {
   	display: block;
-    max-width: 2000;
-    min-width: 2000;
+    max-width: 2000px;
+    min-width: 2000px;
     margin: 0 auto;
   }
 	
@@ -11,12 +11,6 @@
   }
   .wide iframe {
   	display: block;
-  }
-
-  .Do-you-dream-of-bein,
-  .Creativity-requires,
-  .watch-now-btn {
-		left: 345px;
   }
 
 	.Do-you-dream-of-bein {
@@ -39,31 +33,49 @@
   .Fuel-Your-Passion {
     width: 222px;
     height: 40px;
-    right: 336px;
+    left: 1445px;
     bottom: 37px;
   }
 
 	.videos {
+    max-width: 2000px;
+    min-width: 2000px;
+    box-sizing: border-box;   
 		padding: 40px 345px 0 345px;
-		padding-left: 345px;
-		padding-right: 345px;
-		padding-bottom: 0;
 	}
 
 	.video {
+    display: inline-block;
+    width: 300px;
     padding-bottom: 25%;
   }
+
+  .show-more-btn {
+    display: block;
+    margin: 0 auto;
+  }
 	
+  .Do-you-dream-of-bein,
+  .Creativity-requires,
+  .A-space-where-you-ca,
+  .Watch-stories-of-how {
+    margin-left: 345px;
+  }
+
+
 	.Rectangle-4 {
-		padding-bottom: 40px;
 		width: 2000px;
+    height: 532px;
+    padding: 40px 365px;
+    margin-top: 40px;
 		text-align: center;
 	}
 
 	.picRow {
-		margin-right: 40px;
+		/*margin-right: 40px;*/
 		text-align: center;
 		width: 396px;
+    margin-bottom: 42px;
 	}
 
   .support, 
@@ -71,6 +83,7 @@
   .tips {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 
   .subTitle {
@@ -91,10 +104,12 @@
 
   .At-BH-youll-find-s {
     width: 1310px;
-    margin-top: 39px;
+    margin: 39px auto 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  .Welcome-to-your-pet {
+    margin-bottom: 40px
   }
 
 }

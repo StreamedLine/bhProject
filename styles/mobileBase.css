@@ -49,12 +49,13 @@ div.wide,
 
 
 .Fuel-Your-Passion {
+  position: absolute;
   width: 143px;
   height: 27px;
   object-fit: contain;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  top: 218px;
+  right: 9px;
 }
 
 .Creativity-requires {
@@ -74,16 +75,22 @@ div.wide,
 .videos {
   position: relative;
   padding: 0 5px;
-  transition: height 1s ease-in;
+  transition: all 1s ease-in;
+  overflow: hidden
 }
 
 .video {
   position: relative;
   overflow: hidden;
-  width: 145px;
+  width: 250px;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 35px;
+  margin-bottom: 5px;
   padding-bottom: 80%;
+}
+
+.mobile-invisible {
+  display: none;
 }
 
 iframe {
@@ -237,8 +244,7 @@ iframe {
   letter-spacing: 0.3px;
   text-align: center;
   color: #000000;
-  margin-top: 10px;
-  margin-bottom: 20px; 
+  margin: 10px 10px 20px;
 }
 
 .Do-you-dream-of-bein,

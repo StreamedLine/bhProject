@@ -90,6 +90,13 @@
     height: 650px;
   }
 	
+  .Fuel-Your-Passion {
+    width: 302px;
+    height: 40px;
+    top: auto;
+    bottom: 35px;
+    left: 731px;
+  }
 
   .video {
     position: relative;
@@ -135,12 +142,14 @@
     margin-top: 0;
   }
   
-  .Fuel-Your-Passion {
+  .Whats-Your-Aspirati {
     width: 302px;
     height: 40px;
-    bottom: 49px;
+    top: auto;
+    bottom: 50px;
+    right: 15px;
   }
-    
+
   .Rectangle-4 {
     width: 960px;
     height: 464px;  
