@@ -5,13 +5,17 @@
 		const initButtons = () => {
 			const buttons = Array.from(document.getElementsByClassName('watch-now-btn'));
 			
-			buttons.forEach((button, i) => button.addEventListener('click', function(){
-				const videosDiv = Array.from(document.getElementsByClassName('videos'));
-				window.scrollTo({
-   			 	top: videosDiv[i].offsetTop,
-    			behavior: "smooth"
-				});
-			}));
+			//need jquery for smooth scrolling in Internet Explorer
+			buttons.forEach(bindIndexToEvent);
+
+			function bindIndexToEvent(button, i) {
+				$(button).click(function() {
+					console.log('click')
+			    $('html, body').animate({
+			        scrollTop: $('#videoSection' + i).offset().top
+			    }, 1000);
+			  });
+			 }
 		}
 		
 		initButtons();
