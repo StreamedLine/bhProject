@@ -12,6 +12,17 @@
   .wide iframe {
   	display: block;
   }
+  
+  div.wideSmall {
+    display: inline-block;
+  }
+  .wideSmall iframe {
+    display: block;
+  }
+
+   div.wide-invisible {
+    display: none;
+  }
 
 	.Do-you-dream-of-bein {
 		top: 60px;
@@ -60,6 +71,11 @@
   .A-space-where-you-ca,
   .Watch-stories-of-how {
     margin-left: 345px;
+  }
+
+  .Whats-Your-Aspirati {
+    width: 800px;
+    left: 1130px;
   }
 
 
